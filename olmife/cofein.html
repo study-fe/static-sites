@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cofee</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+body {
+		background-color: #221E1D;
+		 font-family: Georgia, "Times New Roman", Times, serif;
+		 		 margin: 0px;
+		}
+
+#main {
+	background-color: #ECEAE0;
+	margin: 50px;
+}
+header {
+	margin-bottom: 10px;
+}
+.logo {
+width: 350px;
+float: right;
+padding: 0;
+}
+.zagolovok {
+		padding-top: 20px;
+		font-family: gabriola;
+		font-size: 1.5em;
+		color: #E9633B;
+	}
+/* {
+		line-height: 1.9em;
+		font-style: italic;
+		border-top-left-radius: 40px;
+		border-bottom-right-radius: 40px;
+		border-style: groove;
+		border-width: 2px;
+		border-color: #d2b48c;
+		border: 1px groove #d2b48c;  
+		width: 714px;
+		padding-top: 340px;
+		background-color: #d2b48c;
+		background-image: url(images/nespresso.gif);
+		background-position: top;
+		background-repeat: no-repeat;
+		background: #d2b48c url(images/nespresso.gif) no-repeat; 
+		}*/  
+
+h1, h2 {
+	color: #E9633B}
+nav {
+	background-color: #221E1D
+	margin: 10px 10px 0px 10px;
+	border-bottom: 1px solid #63AA9C;
+	border-top: 1px solid #63AA9C;
+	clear: right;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 0px 10px 0px 10px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color: #E9633B;
+	border-bottom: none;
+	text-decoration: none;
+	font-weight: bold;
+	background-image: linear-gradient(#E9633B, #E9633B);
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    background-position: 0% 100%;
+    transition: background-size .3s;
+}
+nav ul li a:hover {
+	background-size: 100% 2px;
+	color: #E9633B;
+}
+nav ul li.selected {
+	background-color: #c8b99c;}
+header {
+	margin: 10px 10px 0px 10px;}
+#tablecontainer {
+	display: table;
+	border-spacing: 5px;
+}
+#tablerow {
+	display: table-row;
+
+}
+#drinks {
+	display: table-cell;
+	background-color: #ECEAE0;
+	width: 20%;
+	padding: 15px;
+	vertical-align: top;
+}
+#center {
+	display: table-cell;
+  	font-size: 105%;
+  	padding: 15px;
+  	vertical-align: top;
+}
+
+caption {
+  font-style:       italic;
+  padding-top:      10px;
+	}
+table {
+  margin-left:      20px;
+  margin-right:     20px;
+  border:           thin solid #fcba7a;
+  caption-side:     bottom;
+  border-collapse:  collapse;
+}
+th {
+  background-color: #cc6600;
+}
+tr:nth-child(2n) {
+	background-color: #fcba7a;
+}
+tr:nth-child(2n+1) {
+	background-color: white;
+}
+aside {
+	display: table-cell;
+  	font-size: 105%;
+  	padding: 15px;
+  	vertical-align: top;
+}
+</style>
+</head>
+<body>
+	<div id="main">
+		<header>
+			<img src="images/nespresso.gif" class="logo">
+			<blockquote class="zagolovok">
+				Кофе должен быть горячим,как ад, черным, как черт, <br>
+				чистым, как ангел, и сладким, как любовь.<br>
+				Шарль Морис де Тале
+				</blockquote>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html" title="Назад на главную">ДОМОЙ</a></li>
+				<li><a href="" title="Узнайте о современных методах приготовления кофе">ПРИГОТОВЛЕНИЕ</a></li>
+				<li><a href="" title="Узнайте все об арабике и робусте">СОРТА</a></li>
+				<li><a href="cofein.html" title="Узнайте больше о кофеине">КОФЕИН</a></li>
+			</ul>
+		</nav>
+		<div id="tablecontainer">
+			<div id="tablerow">
+				<section id="drinks">
+					<h2>Домашняя смесь</h2>
+					<img src="thumbnails/mix.jpg" alt="образец домашней смеси" width="300">
+					<p class="in">Мягкая, нетерпкая смесь различных сортов кофе из Мексики, Боливии и Гватемалы</p>
+					<h2>Кофе мокко, 1,50$</h2>
+					<p><img src="thumbnails/mocco.jpg" alt="образец домашней сменси" width="300" height="300">	</p>
+					<p class="in">Эспрессо, кипяченое  молоко и шоколадный сироп.</p>
+					<h2>Капучино, 1,80$</h2>
+					<p><img src="thumbnails/capucino.jpg" alt="образец капучино" width="300" height="300"></p>
+					<p class="in">Смесь эспрессо и кипяченного молока с добавлением пены.</p>
+					<h2 id="chai">Чай, 1,85$</h2>
+					<p> <img src="thumbnails/tea.jpg" alt="образец ароматного чая" width="300" height="300"></p>
+					<p class="in">Ароматный напиток из черного чая, специй, молока и меда.</p>
+					</section>
+				<section id="center">
+					<video controls  width="500" height="auto">
+					<source src="http://www.olmife.mcdir.ru/videos/1.mp4" type="video/mp4">
+					</video>
+					<table>
+						<caption>
+							Таблица содержания кофеина в кофе и чае
+						</caption>
+						<tr>
+							<th>Продукт</th>
+							<th>Обычная порция(мл)</th>
+							<th>Содержание кофеина(мг)</th>
+						</tr>
+						<tr>
+							<td>Кофе, приготовленный из молотых зерен</td>
+							<td>237(1 чашка)</td>
+							<td>118-189</td>
+						</tr>
+						<tr class="cell">
+							<td>Кофе растворимый</td>
+							<td>237</td>
+							<td>76-106</td>
+						</tr>
+							<tr>
+							<td>Кофе без кофеина</td>
+							<td>237</td>
+							<td>3-5</td>
+						</tr>
+						<tr class="cell">
+							<td>Чай черный</td>
+							<td>237</td>
+							<td>43-50</td>
+						</tr>
+						<tr>
+							<td>Чай зеленый</td>
+							<td>237</td>
+							<td>30</td>
+					</section>
+				<aside>
+					<h2>Контактная информация</h2>
+					<p>295056 Республика Крым, г. Симферополь,<br>	ул. Ростовская, д.161</p>
+					<p>тел. +7978000000</p>
+				</aside>
+			</div>
+		</div>
+			<footer>
+				<p>
+				Ознакомтесь с<a href="mission.html" title="Узнайте больше о нашей кофейне">нашей задачей</a><br>
+				Читайте	<a align="center" target="_blank" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%84%D0%B5%D0%B8%D0%BD#footer-info" title="Все самое интересное о кофеине">Все о кофеине</a></p>
+			</footer>
+	</div>
+</body>
+</html>
+
+
+
