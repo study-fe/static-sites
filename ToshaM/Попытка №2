@@ -1,0 +1,310 @@
+<!-- Делаем страницу частичную копию https://rb.ru/story/biznes-po-repostu/ -->
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="Untitled-2.css">
+    <!-- Ссылка на стили -->
+    <link rel="shortcut icon" href="https://static.rbcdn.ru/static/i3/icons/telegram_avatar_mobile.png" type="image/png">
+    <!-- Ссылка на иконку -->
+    <style>
+        header {
+            text-align: right;
+            background-color: black;
+            width: 100%;
+            padding: 6px;
+            padding-right: 40px;
+            color: white;
+            position: absolute;
+            top: 0;
+            right: 0;
+            word-spacing: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 10pt;
+        }
+        
+        body {
+            font-size: 12pt;
+        }
+        
+        .y-top {
+            border: 1px;
+            padding: 6px;
+            padding-left: 12px;
+            padding-right: 12px;
+            background: url(https://www.colorhexa.com/ac495d.png);
+            background-size: content;
+            /* Доделать фон ссылки  */
+        }
+        
+        .top a:visited,
+        a:active,
+        a:hover,
+        a:link,
+        a:hover {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .menu,
+        a:visited,
+        a:active,
+        a:hover,
+        a:link {
+            margin-top: 40px;
+            color: grey;
+            place-content: left;
+        }
+        
+        .menu {
+            word-spacing: 30px;
+            font-size: 14pt;
+            padding-top: 8px;
+            margin-left: 70px;
+        }
+        
+        .hr-line {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            height: 12px;
+            border: 0;
+            box-shadow: inset 0 15px 5px -11px rgba(0, 0, 0, 0.075);
+        }
+        
+        .form {
+            display: inline-flex;
+            padding-left: 100px;
+            font-size: 11pt;
+        }
+        
+        input[type="submit"] {
+            color: white;
+            background-color: #ac495d;
+            margin-top: 1em;
+            padding: 8px 20px;
+            font-weight: bold;
+            border: none;
+            border-radius: 2px;
+            width: 100px;
+        }
+        
+        input[type="search"] {
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            padding: 8px 20px;
+            background: white;
+            width: 110px;
+        }
+        
+        .search-but:focus {
+            z-index: 10;
+            width: 200px;
+            position: absolute;
+            top: 60px;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            padding: 8px 100px;
+            background: white;
+        }
+        
+        aside {
+            float: left;
+            position: fixed;
+            width: 300px;
+            padding: 70px;
+            top: 250px;
+        }
+        
+        aside h4 {
+            margin-bottom: -15px;
+            font-size: 14pt;
+        }
+        
+        aside p {
+            font-size: 10pt;
+            margin-bottom: 40px;
+        }
+        
+        aside a {
+            font-size: 11pt black;
+            border: 1px rgb(194, 184, 184);
+            line-height: 40px;
+            padding: 7px 7px;
+            margin: 10px;
+            border-radius: 20px;
+            background: rgba(211, 211, 211, 0.267);
+        }
+        
+        .img-aside {
+            width: 70px;
+            float: left;
+            margin: 20px;
+        }
+        
+        .container {
+            font-size: 14pt;
+            width: 580px;
+            /* Ширина макета */
+            margin: 0 auto;
+            /* Выравниваем макет по центру */
+        }
+        
+        .block {
+            background-color: aliceblue;
+            width: 250px;
+            float: right;
+            margin-top: 50px;
+            margin-right: 90px;
+            text-align: left;
+            padding-left: 30px;
+        }
+        
+        .block a {
+            color: #ac495d;
+        }
+        
+        .block p {
+            text-align: center;
+        }
+        
+        .history {
+            margin-top: 50px;
+            padding-left: 70px;
+        }
+        
+        .history h1 {
+            font-size: 28pt;
+        }
+        
+        .container h3 {
+            font-size: 18pt;
+        }
+        
+        .container p {
+            color: rgb(85, 85, 85);
+        }
+        
+        ul {
+            list-style-image: url(https://static.rbcdn.ru/static/i3/deco10.png);
+            color: rgb(85, 85, 85);
+        }
+        
+        ul li {
+            margin: 12px;
+        }
+        
+        .text-1:link,
+        :visited,
+        :active {
+            color: #ac495d;
+        }
+        
+        .text-1:hover {
+            color: #ccc;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="top">
+        <a class="y-top" href="https://rb.ru/" title="Технологии и бизнес, аналитика, обзоры рынков"> RB.RU</a>
+        <a href="https://rb.ru/chance" title="Возможности для предпринимателей и разработчиков"> CHANCE</a>
+        <a href="https://rb.ru/services" title="B2B-Магазин для бизнеса">B2B-SERVICES</a>
+        <a href="https://rb.ru/edu" title="Образовательные программы и курсы">EDU</a>
+        <a href="https://rb.ru/events/" title="События для предпринимателей">EVENTS</a>
+        <a href="https://rb.ru/deals/" title="База данных венчурного рынка">DATA</a>
+        <a href="https://rb.ru/pipeline" title="Поиск инвестиций">PIPELINE</a>
+    </header>
+    <div class="menu">
+        <a href="https://rb.ru/"><img src="https://static.rbcdn.ru/static/i3/logo.svg" alt="" width="100"></a>
+        <a href="https://rb.ru/news/" title="Новости">Новости</a>
+        <a href="https://rb.ru/tag/business" title="Бизнес">Бизнес</a>
+        <a href="https://rb.ru/tag/technology/" title="Технологии">Технологии</a>
+        <a href="https://rb.ru/tag/career/" title="Карьера">Карьера</a>
+        <a href="https://rb.ru/tag/lifestyle" title="Лайфстайл">Лайфстайл</a>
+        <a href="https://rb.ru/tag/video" title="TV">Rusbase TV</a>
+        <div class="form">
+            <form class="search" method="GET">
+                <input class="search-but" type="search" name="search" placeholder="ПОИСК">
+                <input type="submit" value="ВХОД">
+            </form>
+        </div>
+    </div>
+    <div class="line">
+        <hr class="hr-line">
+    </div>
+    <aside>
+        <!-- Блок слева с автором -->
+        <img class="img-aside" src="https://media.rbcdn.ru/media/user_banners/sokolova_BhziFvJ.png.300x300_q85_crop_upscale.png" alt="">
+        <h4>Анна Соколова</h4>
+        <p>экс-редактор раздела «Технологии» на Rusbase</p>
+        <a href="https://rb.ru/tag/business/">Бизнес</a>
+        <a href="https://rb.ru/tag/cases/">Кейсы</a>
+        <a href="https://rb.ru/tag/facebook/">Facebook</a>
+        <a href="https://rb.ru/tag/it/">IT</a>
+        <a href="https://rb.ru/tag/lifestyle/">Образ жизни</a>
+        <a href="https://rb.ru/tag/monetization/">Monetization</a>
+        <a href="https://rb.ru/tag/russia/">Россия</a>
+        <a href="https://rb.ru/tag/socialnet/">Социальные сети</a>
+        <a href="https://rb.ru/tag/vk/">ВКонтакте</a>
+    </aside>
+    <div class="block">
+        <h3>FinTech Day - 2019</h3>
+        23 апреля 2019
+        <p><a>Еще события</a></p>
+    </div>
+    <div class="history">
+        <h4>ИСТОРИИ</h4>
+        <h1>Могут ли бизнес-блоги сделать из вас предпринимателя?</h1>
+        <time datetime="2015-10-26T17:26">17:26, 26 октября 2015</time>
+        <!-- Указать дату статьи 17:26, 26 октября 2015 -->
+    </div>
+    <div class="container">
+        <h3>Как бизнес-блогеры и паблики заражают народ духом предпринимательства</h3>
+        <p>По <a class="text-1" href="http://rg.ru/2015/09/08/torg.html">данным</a> социологов, собственным бизнесом сегодня занимаются 2,8 млн россиян. Для сравнения — в 2013 году свое дело было у 4,3 млн наших граждан. Зато население России стало лучше
+            относиться к предпринимательству: сегодня таковых 49% против 41% двумя годами ранее. Доля россиян с неоднозначным отношением к бизнесу снизилась с 21% до 16%, противников бизнеса — с 7% до 4%.</p>
+        <p>Популяризацией предпринимательства в нашей стране занимаются институты развития, бизнес-школы, профильные СМИ, инвесторы и сами бизнесмены. Иногда они так увлекаются передачей своего опыта окружающим, что заводят блог.</p>
+        <p>Rusbase решил выяснить, какую роль бизнес-блоги и тематические паблики играют в формировании предпринимательской культуры.
+        </p>
+        <h2>Часть 1. Что дают бизнес-блогеры?</h2>
+        <p>В деловых СМИ, в том числе и <a class="text-1" href="http://rusbase.com/opinion/">у нас</a>, очень популярен жанр колонки, где практикующие предприниматели и специалисты делятся видением рынка и полезными советами. Но решения об этих публикациях
+            принимает редакция, а личный блог позволяет ни от кого не зависеть и обращаться к аудитории хоть каждый день.</p>
+        <p>В 2013 году издание Slon <a class="text-1" href="http://slon.ru/business/biblioteka_yunogo_kommersanta_15_blogov_nastoyashchikh_predprinimateley-916438.xhtml">советовало</a> начинающим предпринимателям читать:</p>
+        <!-- Маркированный список с ссылкамми -->
+        <ul>
+            <li><a class="text-1" href="https://twitter.com/LevKhasis">твиттер</a> топ-менеджера WalMart Льва Хасиса (все должности указаны по состоянию на 2013 год, — ред.)
+            </li>
+            <li><a class="text-1" href="https://twitter.com/sergeygalitskiy/">твиттер</a> совладельца сети «Магнит» Сергея Галицкого</li>
+            <li><a class="text-1" href="https://twitter.com/titovby">твиттер</a> бизнес-омбудсмена Бориса Титова</li>
+            <li><a class="text-1" href="https://www.facebook.com/olegtinkov">фейсбук</a> банкира Олега Тинькова</li>
+            <li><a class="text-1" href="http://sila-uma.ru/">блог</a> создателя сети «Додо Пицца» Федора Овчинникова «Сила ума»</li>
+            <li><a class="text-1" href="http://www.kraynov.com/">блог</a> исполнительного директора Aviasales Максима Крайнова</li>
+            <li><a class="text-1" href="http://inbelousov.livejournal.com/">блог</a> владельца агрохолдинга Belousov Group Игоря Белоусова «Записки крестьянина»</li>
+            <li><a class="text-1" href="http://svictorych.livejournal.com/">блог</a> анонимного владельца сети магазинов электроники Сергея Викторовича «Блог общего назначения»</li>
+            <li><a class="text-1" href="http://maximmostovoy.livejournal.com/">блог</a> предпринимателя Максима Мостового</li>
+            <li><a class="text-1" href="http://kam4adal.livejournal.com/">блог</a> владельца камчатской службы такси «Би-Би» Владимира Торопова</li>
+            <li><a class="text-1" href="http://andreysemenov.livejournal.com/">блог</a> создателя екатеринбургской сети пироговых «Подсолнухи» Андрея Семенова</li>
+            <li><a class="text-1" href="http://cybrat.livejournal.com/">блог</a> владельца IT-компании «Корада» Алексея Бояршинова</li>
+            <li><a class="text-1" href="http://fintraining.livejournal.com/">блог</a> владельца Центра финансового образования Сергея Спирина «Записки инвестора»</li>
+            <li><a class="text-1" href="http://spiridonov.ru/">блог</a> создателя школы интернет-маркетинга «Нетология» Максима Спиридонова</li>
+            <li><a class="text-1" href="http://n-dodonov.livejournal.com/">блог</a> владельца компании «ET-Россия» Николая Додонова «О тайм-менеджменте и продажах»</li>
+        </ul>
+        <p>Не все из этих блогов сегодня живы, а кто-то остается в топе до сих пор. Структура бизнес-блогосферы с тех пор немного изменилась — на смену ушедшим пришли другие лидеры мнений. Как показал опрос знакомых предпринимателей, весьма популярные блоги
+            о бизнесе сегодня ведут (помимо героев списка «Слона»):</p>
+        <ul>
+            <li><a class="text-1" href="https://vk.com/ayazshabutdinov">Аяз Шабутдинов</a>, основатель холдинга Like</li>
+            <li><a class="text-1" href="https://www.youtube.com/user/Tatunashvili">Руслан Татунашвили</a>, гендиректор компании CallbackHunter</li>
+            <li><a class="text-1" href="https://www.facebook.com/alexander.zhurba">Александр Журба</a>, сооснователь Sapfir Capital</li>
+            <li><a class="text-1" href="http://slobodin.livejournal.com/">Михаил Слободин</a>, гендиректор «Вымпелкома»</li>
+            <li><a class="text-1" href="https://www.facebook.com/Madrobots.ru">Николай Белоусов</a>, основатель интернет-магазина Madrobots</li>
+            <li><a class="text-1" href="http://batyrevmaxim.livejournal.com/">Максим Батырев</a>, член правления компании «Что делать Консалт» (сеть «КонсультантПлюс»)</li>
+        </ul>
+    </div>
+
+</body>
+
+
+</html>
