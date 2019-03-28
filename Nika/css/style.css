@@ -76,10 +76,7 @@ a {
 }
 
 .item-main-menu p {
-    padding-top: 48px;
-    padding-left: 14px;
-    padding-bottom: 8px;
-    padding-right: 14px;
+    padding: 48px 14px 8px;
     cursor: pointer;
 }
 
@@ -163,7 +160,6 @@ a {
     padding-right: 15px;
     text-align: center;
     width: 350px;
-    padding: 15px,0;
 }
 
 .different h4 {
