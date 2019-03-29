@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cofee</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+body {
+		background-color: #221E1D;
+		 font-family: Georgia, "Times New Roman", Times, serif;
+		 		 margin: 0px;
+		}
+
+.content {
+	background-color: #ECEAE0;
+	margin: 50px;
+	
+}
+
+.logo {
+width: 350px;
+float: right;
+padding: 0;
+margin-right: 20px;
+}
+.zagolovok {
+		
+		font-family: gabriola;
+		font-size: 1.5em;
+		color: #E9633B;
+		font-weight: bold;
+	}
+h1, h2 {
+	color: #E9633B;
+	text-align: center;
+}
+nav {
+	background-color: #221E1D
+	margin: 10px 10px 0px 10px;
+	border-bottom: 1px solid #63AA9C;
+	border-top: 1px solid #63AA9C;
+	clear: right;
+	text-align: center;
+	}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 0px 10px 0px 10px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color: #E9633B;
+	border-bottom: none;
+	text-decoration: none;
+	font-weight: bold;
+	background-image: linear-gradient(#E9633B, #E9633B);
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    background-position: 0% 100%;
+    transition: background-size .3s;
+}
+nav ul li a:hover {
+	background-size: 100% 2px;
+	color: #E9633B;
+}
+
+.content {
+	display: flex;
+	flex-flow: row wrap;
+	}
+.content > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+@media all and (min-width: 600px) {
+  .aside { flex: 0 3 300px; }
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 5 0px; text-align: justify;}
+  .aside-1 { width: 300px;} 
+  .aside-2 { width: 200px; text-align: center; }
+</style>
+
+</head>
+<body>
+	<div class="content">
+		<header class="header">
+			<img src="images/nespresso.gif" class="logo">
+			<blockquote class="zagolovok">
+				Кофе должен быть горячим,как ад, черным, как черт, <br>
+				чистым, как ангел, и сладким, как любовь. <br>
+				Шарль Морис де Тале
+				</blockquote>
+		<nav>
+			<ul>
+				<li><a href="index.html" title="Назад на главную">ДОМОЙ</a></li>
+				<li><a href="" title="Узнайте о современных методах приготовления кофе">ПРИГОТОВЛЕНИЕ</a></li>
+				<li><a href="" title="Узнайте все об арабике и робусте">СОРТА</a></li>
+				<li><a href="cofein.html" title="Узнайте больше о кофеине">КОФЕИН</a></li>
+			</ul>
+		</nav>
+		</header>
+			<aside class="aside aside-1">
+				<h2>Домашняя смесь</h2>
+				<img src="thumbnails/mix.jpg" alt="образец домашней смеси" width="300">
+				<p>Мягкая, нетерпкая смесь различных сортов кофе из Мексики, Боливии и Гватемалы</p>
+				<h2>Кофе мокко, 1,50$</h2>
+				<p><img src="thumbnails/mocco.jpg" alt="образец домашней сменси" width="300" height="300"></p>
+				<p>Эспрессо, кипяченое  молоко и шоколадный сироп. </p>
+				<h2>Капучино, 1,80$</h2>
+				<p><img src="thumbnails/capucino.jpg" alt="образец капучино" width="300" height="300"></p>
+				<p>Смесь эспрессо и кипяченного молока с добавлением пены. </p>
+				<h2 id="chai">Чай, 1,85$</h2>
+				<p> <img src="thumbnails/tea.jpg" alt="образец ароматного чая" width="300" height="300"></p>
+				<p >Ароматный напиток из черного чая, специй, молока и меда. </p>
+			</aside>
+			<article class="main">
+				<h1>Основы приготовления правильного кофе</h1>
+				<p>Важно соблюдение четырех основ правильного приготовления: пропорции, помол, вода и свежесть кофейных зерен:</p>
+				<p> 
+						Соблюдай правильные соотношения между количеством кофе и воды: 10 грамм на каждые 180 мл воды. Это значит, что на литровый френч-пресс тебе потребуется 56 грамм кофе.<br>
+						Вода, которую ты используешь для приготовления кофе, должна быть чистой и свежей. Лучше, если она будет фильтрованной. Воду необходимо прокипятить и дать ей немного остыть до 90−96 градусов — это то, что надо для прекрасного экстрагирования из кофе всего спектра его вкусов и ароматов. Френч-пресс необходимо прогреть перед использованием. Для этого наполни его кипяченой горячей водой, и слей ее через несколько секунд.<br>
+						Различные способы приготовления кофе требуют различного помола. Для эспрессо-кофемашины нужен некрупный помол, цикл приготовления длится всего лишь 18−23 секунды. Для френч-пресса следует применять крупный помол, поскольку кофе находится в контакте с горячей водой в течение нескольких минут.<br>
+						Для заваривания рекомендуется подождать 4 минуты, вдыхая фантастический аромат, и можно наслаждаться правильным кофе!
+				</p>
+			</article>
+				<aside class="aside aside-2">
+				<h2>Контактная информация</h2>
+				<p>295056 Республика Крым, г. Симферополь,<br>	ул. Ростовская, д.161 </p>
+				<p>тел. +7978000000</p>
+			</aside>
+			<footer class="footer">
+				<p>
+				Ознакомтесь с<a href="mission.html" title="Узнайте больше о нашей кофейне">нашей задачей</a><br>
+				Читайте	<a align="center" target="_blank" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%84%D0%B5%D0%B8%D0%BD#footer-info" title="Все самое интересное о кофеине">Все о кофеине</a></p>
+			</footer>
+	</div>
+</body>
+</html>
+
+
+
