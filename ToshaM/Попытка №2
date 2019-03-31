@@ -97,8 +97,7 @@
             background: white;
             width: 110px;
         }
-        
-        .search-but:focus {
+        /* .search-but:focus {
             z-index: 10;
             width: 200px;
             position: absolute;
@@ -107,7 +106,7 @@
             border-radius: 2px;
             padding: 8px 100px;
             background: white;
-        }
+        } */
         
         aside {
             float: left;
@@ -135,6 +134,14 @@
             margin: 10px;
             border-radius: 20px;
             background: rgba(211, 211, 211, 0.267);
+        }
+        
+        aside a:visited,
+        a:active,
+        a:hover,
+        a:link,
+        a:hover {
+            color: grey;
         }
         
         .img-aside {
@@ -195,15 +202,152 @@
             margin: 12px;
         }
         
-        .text-1:link,
-        :visited,
-        :active {
+        .text-1,
+        a:link,
+        a:visited,
+        a:active {
             color: #ac495d;
         }
         
         .text-1:hover {
             color: #ccc;
             text-decoration: underline;
+        }
+        /* color: #ac495d; */
+        
+        @media only screen and (min-width: 985px) and (max-width: 1349px) {
+            aside {
+                float: left;
+                position: relative;
+                width: 153px;
+                padding: 70px;
+                top: 15px;
+            }
+            .history {
+                margin-top: 100px;
+                padding-left: 70px;
+            }
+            .block {
+                display: none;
+            }
+            .menu .f3 {
+                display: none;
+            }
+            .form {
+                display: inline-block;
+                position: relative;
+                font-size: 11pt;
+            }
+            .container {
+                font-size: 14pt;
+                width: 580px;
+                /* Ширина макета */
+                margin: 0 auto;
+                /* Выравниваем макет по центру */
+            }
+        }
+        
+        @media only screen and (min-width: 737px) and (max-width: 984px) {
+            aside {
+                float: inherit;
+                position: inherit;
+                width: 580px;
+                height: 70px;
+                margin: 0 auto;
+                padding: 60px;
+                top: 10px;
+            }
+            .history {
+                margin-top: 100px;
+                padding-left: 70px;
+            }
+            .block {
+                display: none;
+            }
+            .menu .f3,
+            .f2 {
+                display: none;
+            }
+            .form {
+                display: inline-block;
+                position: relative;
+                font-size: 11pt;
+            }
+            .container {
+                font-size: 14pt;
+                width: 580px;
+                /* Ширина макета */
+                margin: 0 auto;
+                /* Выравниваем макет по центру */
+            }
+        }
+        
+        @media only screen and (min-width: 414px) and (max-width: 736px) {
+            header {
+                display: none;
+            }
+            aside {
+                float: inherit;
+                position: inherit;
+                width: 300px;
+                height: 140px;
+                margin: 0 auto;
+                padding: 60px;
+                top: 10px;
+            }
+            .history {
+                font-size: 11pt;
+                margin-top: 100px;
+                padding-left: 45px;
+            }
+            .block {
+                display: none;
+            }
+            .menu .f3,
+            .f2,
+            .f1 {
+                display: none;
+            }
+            .menu img {
+                margin-left: 100px;
+                width: 150px;
+            }
+            .menu a {
+                margin: 0 auto;
+            }
+            .menu {
+                margin-left: 5px;
+            }
+            .form {
+                /* display: inline-block; */
+                /* position: relative; */
+                font-size: 9pt;
+                padding-left: none;
+            }
+            input[type="search"] {
+                border: 1px solid #ccc;
+                border-radius: 2px;
+                padding: 4px 10px;
+                background: white;
+                width: 90px;
+            }
+            input[type="submit"] {
+                color: white;
+                background-color: #ac495d;
+                margin-top: 1em;
+                padding: 4px 10px;
+                font-weight: bold;
+                border: none;
+                border-radius: 2px;
+                width: 90px;
+            }
+            .container {
+                font-size: 13pt;
+                width: 300px;
+                /* Ширина макета */
+                margin: 0 auto;
+                /* Выравниваем макет по центру */
+            }
         }
     </style>
 </head>
@@ -219,13 +363,13 @@
         <a href="https://rb.ru/pipeline" title="Поиск инвестиций">PIPELINE</a>
     </header>
     <div class="menu">
-        <a href="https://rb.ru/"><img src="https://static.rbcdn.ru/static/i3/logo.svg" alt="" width="100"></a>
-        <a href="https://rb.ru/news/" title="Новости">Новости</a>
-        <a href="https://rb.ru/tag/business" title="Бизнес">Бизнес</a>
-        <a href="https://rb.ru/tag/technology/" title="Технологии">Технологии</a>
-        <a href="https://rb.ru/tag/career/" title="Карьера">Карьера</a>
-        <a href="https://rb.ru/tag/lifestyle" title="Лайфстайл">Лайфстайл</a>
-        <a href="https://rb.ru/tag/video" title="TV">Rusbase TV</a>
+        <a class="f0" href="https://rb.ru/"><img src="https://static.rbcdn.ru/static/i3/logo.svg" alt="" width="100"></a>
+        <a class="f1" href="https://rb.ru/news/" title="Новости">Новости</a>
+        <a class="f2" href="https://rb.ru/tag/business" title="Бизнес">Бизнес</a>
+        <a class="f2" href="https://rb.ru/tag/technology/" title="Технологии">Технологии</a>
+        <a class="f3" href="https://rb.ru/tag/career/" title="Карьера">Карьера</a>
+        <a class="f3" href="https://rb.ru/tag/lifestyle" title="Лайфстайл">Лайфстайл</a>
+        <a class="f3" href="https://rb.ru/tag/video" title="TV">Rusbase TV</a>
         <div class="form">
             <form class="search" method="GET">
                 <input class="search-but" type="search" name="search" placeholder="ПОИСК">
@@ -264,15 +408,15 @@
     </div>
     <div class="container">
         <h3>Как бизнес-блогеры и паблики заражают народ духом предпринимательства</h3>
-        <p>По <a class="text-1" href="http://rg.ru/2015/09/08/torg.html">данным</a> социологов, собственным бизнесом сегодня занимаются 2,8 млн россиян. Для сравнения — в 2013 году свое дело было у 4,3 млн наших граждан. Зато население России стало лучше
+        <p>По <a class="text-1" href="https://rg.ru/2015/09/08/torg.html">данным</a> социологов, собственным бизнесом сегодня занимаются 2,8 млн россиян. Для сравнения — в 2013 году свое дело было у 4,3 млн наших граждан. Зато население России стало лучше
             относиться к предпринимательству: сегодня таковых 49% против 41% двумя годами ранее. Доля россиян с неоднозначным отношением к бизнесу снизилась с 21% до 16%, противников бизнеса — с 7% до 4%.</p>
         <p>Популяризацией предпринимательства в нашей стране занимаются институты развития, бизнес-школы, профильные СМИ, инвесторы и сами бизнесмены. Иногда они так увлекаются передачей своего опыта окружающим, что заводят блог.</p>
         <p>Rusbase решил выяснить, какую роль бизнес-блоги и тематические паблики играют в формировании предпринимательской культуры.
         </p>
         <h2>Часть 1. Что дают бизнес-блогеры?</h2>
-        <p>В деловых СМИ, в том числе и <a class="text-1" href="http://rusbase.com/opinion/">у нас</a>, очень популярен жанр колонки, где практикующие предприниматели и специалисты делятся видением рынка и полезными советами. Но решения об этих публикациях
+        <p>В деловых СМИ, в том числе и <a class="text-1" href="https://rusbase.com/opinion/">у нас</a>, очень популярен жанр колонки, где практикующие предприниматели и специалисты делятся видением рынка и полезными советами. Но решения об этих публикациях
             принимает редакция, а личный блог позволяет ни от кого не зависеть и обращаться к аудитории хоть каждый день.</p>
-        <p>В 2013 году издание Slon <a class="text-1" href="http://slon.ru/business/biblioteka_yunogo_kommersanta_15_blogov_nastoyashchikh_predprinimateley-916438.xhtml">советовало</a> начинающим предпринимателям читать:</p>
+        <p>В 2013 году издание Slon <a class="text-1" href="https://slon.ru/business/biblioteka_yunogo_kommersanta_15_blogov_nastoyashchikh_predprinimateley-916438.xhtml">советовало</a> начинающим предпринимателям читать:</p>
         <!-- Маркированный список с ссылкамми -->
         <ul>
             <li><a class="text-1" href="https://twitter.com/LevKhasis">твиттер</a> топ-менеджера WalMart Льва Хасиса (все должности указаны по состоянию на 2013 год, — ред.)
@@ -280,17 +424,17 @@
             <li><a class="text-1" href="https://twitter.com/sergeygalitskiy/">твиттер</a> совладельца сети «Магнит» Сергея Галицкого</li>
             <li><a class="text-1" href="https://twitter.com/titovby">твиттер</a> бизнес-омбудсмена Бориса Титова</li>
             <li><a class="text-1" href="https://www.facebook.com/olegtinkov">фейсбук</a> банкира Олега Тинькова</li>
-            <li><a class="text-1" href="http://sila-uma.ru/">блог</a> создателя сети «Додо Пицца» Федора Овчинникова «Сила ума»</li>
-            <li><a class="text-1" href="http://www.kraynov.com/">блог</a> исполнительного директора Aviasales Максима Крайнова</li>
-            <li><a class="text-1" href="http://inbelousov.livejournal.com/">блог</a> владельца агрохолдинга Belousov Group Игоря Белоусова «Записки крестьянина»</li>
-            <li><a class="text-1" href="http://svictorych.livejournal.com/">блог</a> анонимного владельца сети магазинов электроники Сергея Викторовича «Блог общего назначения»</li>
-            <li><a class="text-1" href="http://maximmostovoy.livejournal.com/">блог</a> предпринимателя Максима Мостового</li>
-            <li><a class="text-1" href="http://kam4adal.livejournal.com/">блог</a> владельца камчатской службы такси «Би-Би» Владимира Торопова</li>
-            <li><a class="text-1" href="http://andreysemenov.livejournal.com/">блог</a> создателя екатеринбургской сети пироговых «Подсолнухи» Андрея Семенова</li>
-            <li><a class="text-1" href="http://cybrat.livejournal.com/">блог</a> владельца IT-компании «Корада» Алексея Бояршинова</li>
-            <li><a class="text-1" href="http://fintraining.livejournal.com/">блог</a> владельца Центра финансового образования Сергея Спирина «Записки инвестора»</li>
-            <li><a class="text-1" href="http://spiridonov.ru/">блог</a> создателя школы интернет-маркетинга «Нетология» Максима Спиридонова</li>
-            <li><a class="text-1" href="http://n-dodonov.livejournal.com/">блог</a> владельца компании «ET-Россия» Николая Додонова «О тайм-менеджменте и продажах»</li>
+            <li><a class="text-1" href="https://sila-uma.ru/">блог</a> создателя сети «Додо Пицца» Федора Овчинникова «Сила ума»</li>
+            <li><a class="text-1" href="https://www.kraynov.com/">блог</a> исполнительного директора Aviasales Максима Крайнова</li>
+            <li><a class="text-1" href="https://inbelousov.livejournal.com/">блог</a> владельца агрохолдинга Belousov Group Игоря Белоусова «Записки крестьянина»</li>
+            <li><a class="text-1" href="https://svictorych.livejournal.com/">блог</a> анонимного владельца сети магазинов электроники Сергея Викторовича «Блог общего назначения»</li>
+            <li><a class="text-1" href="https://maximmostovoy.livejournal.com/">блог</a> предпринимателя Максима Мостового</li>
+            <li><a class="text-1" href="https://kam4adal.livejournal.com/">блог</a> владельца камчатской службы такси «Би-Би» Владимира Торопова</li>
+            <li><a class="text-1" href="https://andreysemenov.livejournal.com/">блог</a> создателя екатеринбургской сети пироговых «Подсолнухи» Андрея Семенова</li>
+            <li><a class="text-1" href="https://cybrat.livejournal.com/">блог</a> владельца IT-компании «Корада» Алексея Бояршинова</li>
+            <li><a class="text-1" href="https://fintraining.livejournal.com/">блог</a> владельца Центра финансового образования Сергея Спирина «Записки инвестора»</li>
+            <li><a class="text-1" href="//spiridonov.ru/">блог</a> создателя школы интернет-маркетинга «Нетология» Максима Спиридонова</li>
+            <li><a class="text-1" href="https://n-dodonov.livejournal.com/">блог</a> владельца компании «ET-Россия» Николая Додонова «О тайм-менеджменте и продажах»</li>
         </ul>
         <p>Не все из этих блогов сегодня живы, а кто-то остается в топе до сих пор. Структура бизнес-блогосферы с тех пор немного изменилась — на смену ушедшим пришли другие лидеры мнений. Как показал опрос знакомых предпринимателей, весьма популярные блоги
             о бизнесе сегодня ведут (помимо героев списка «Слона»):</p>
@@ -298,9 +442,9 @@
             <li><a class="text-1" href="https://vk.com/ayazshabutdinov">Аяз Шабутдинов</a>, основатель холдинга Like</li>
             <li><a class="text-1" href="https://www.youtube.com/user/Tatunashvili">Руслан Татунашвили</a>, гендиректор компании CallbackHunter</li>
             <li><a class="text-1" href="https://www.facebook.com/alexander.zhurba">Александр Журба</a>, сооснователь Sapfir Capital</li>
-            <li><a class="text-1" href="http://slobodin.livejournal.com/">Михаил Слободин</a>, гендиректор «Вымпелкома»</li>
+            <li><a class="text-1" href="https://slobodin.livejournal.com/">Михаил Слободин</a>, гендиректор «Вымпелкома»</li>
             <li><a class="text-1" href="https://www.facebook.com/Madrobots.ru">Николай Белоусов</a>, основатель интернет-магазина Madrobots</li>
-            <li><a class="text-1" href="http://batyrevmaxim.livejournal.com/">Максим Батырев</a>, член правления компании «Что делать Консалт» (сеть «КонсультантПлюс»)</li>
+            <li><a class="text-1" href="https://batyrevmaxim.livejournal.com/">Максим Батырев</a>, член правления компании «Что делать Консалт» (сеть «КонсультантПлюс»)</li>
         </ul>
     </div>
 
