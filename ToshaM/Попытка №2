@@ -116,7 +116,7 @@
         aside {
             float: left;
             position: fixed;
-            width: 300px;
+            width: 280px;
             padding: 70px;
             top: 250px;
         }
