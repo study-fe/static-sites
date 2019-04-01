@@ -8,6 +8,7 @@
     <!-- Ссылка на стили -->
     <link rel="shortcut icon" href="https://static.rbcdn.ru/static/i3/icons/telegram_avatar_mobile.png" type="image/png">
     <!-- Ссылка на иконку -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
     <style>
         header {
             text-align: right;
@@ -25,7 +26,8 @@
         }
         
         body {
-            font-size: 12pt;
+            font-size: 11pt;
+            font-family: 'Fira Sans Extra Condensed', sans-serif;
         }
         
         .y-top {
@@ -150,7 +152,7 @@
         .img-aside {
             width: 70px;
             float: left;
-            margin: 20px;
+            margin: 15px;
         }
         
         .container {
