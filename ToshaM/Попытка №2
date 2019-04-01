@@ -79,23 +79,26 @@
             font-size: 11pt;
         }
         
-        input[type="submit"] {
-            color: white;
-            background-color: #ac495d;
+         input[type="submit"] {
+            color: rgb(255, 255, 255);
             margin-top: 1em;
             padding: 8px 20px;
             font-weight: bold;
-            border: none;
+            border: 1px solid #ac495d;
             border-radius: 2px;
             width: 100px;
+            background: url(https://pngimg.com/uploads/padlock/padlock_PNG9406.png) no-repeat 5% 50%;
+            background-size: 20px 20px;
+            background-color: #ac495d;
         }
         
         input[type="search"] {
             border: 1px solid #ccc;
             border-radius: 2px;
             padding: 8px 20px;
-            background: white;
             width: 110px;
+            background: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-search-strong-128.png) no-repeat 90% 50%;
+            background-size: 20px 20px;
         }
         /* .search-but:focus {
             z-index: 10;
