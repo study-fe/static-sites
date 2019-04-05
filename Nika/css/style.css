@@ -1,14 +1,339 @@
+@media screen and (min-width: 1200px) {
+    .main-content {
+        background: url(../images/bottega-sicula-wpcf_1200x700.jpg);
+    }
+
+    .description {
+        height: 700px !important;
+    }
+
+    .title h1 {
+        padding-top: 200px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .main-content {
+        background: url(../images/bottega-sicula-wpcf_1200x700.jpg) !important;
+        height: 693px !important;
+    }
+
+    .secondary-menu {
+        display: none;
+    }
+
+    .text-main-menu {
+        display: none !important;
+    }
+
+    .media-menu {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .media-logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .media-main-menu img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .title {
+        align-items: center !important;
+        text-align: center !important
+    }
+
+    .title h1 {
+        font-size: 96px !important;
+        padding-top: 200px !important;
+    }
+
+    .text-description {
+        padding-bottom: 20px !important;
+    }
+
+    .image-content {
+        flex-direction: column !important;
+        height: 100% !important;
+    }
+
+    .cover-image {
+        width: 100% !important;
+    }
+
+    .simply-image {
+        width: 100% !important;
+    }
+
+    .image-1 .image-2 .image-3 .image-4 {
+        background-size: auto;
+        height: 100%;
+    }
+
+    .footer {
+        height: 450px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-content {
+        background: url(../images/bottega-sicula-wpcf_1200x700.jpg) !important;
+        height: 583px !important;
+    }
+
+    .secondary-menu {
+        display: none;
+    }
+
+    .text-main-menu {
+        display: none !important;
+    }
+
+    .media-menu {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .media-logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .media-main-menu img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .title h1 {
+        font-size: 72px !important;
+        padding-top: 0 !important;
+    }
+
+    .button {
+        width: 510px !important;
+    }
+
+    .text-description {
+        padding-bottom: 20px !important;
+    }
+
+    .image-content {
+        flex-direction: column !important;
+        height: 100% !important;
+    }
+
+    .cover-image {
+        width: 100% !important;
+    }
+
+    .simply-image {
+        width: 100% !important;
+    }
+
+    .image-1 .image-2 .image-3 .image-4 {
+        background-size: auto;
+        height: 100%;
+    }
+
+    .shell {
+        flex-direction: column;
+    }
+
+    .text-description {
+        overflow: auto;
+    }
+
+    .footer {
+        height: 100% !important;
+    }
+
+    .information {
+        flex-direction: column !important;
+        align-items: center !important;
+        padding-bottom: 50px !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .main-content {
+        background: url(../images/bottega-sicula-wpcf_768x700.jpg) !important;
+        height: 583px !important;
+    }
+
+    .secondary-menu {
+        display: none;
+    }
+
+    .text-main-menu {
+        display: none !important;
+    }
+
+    .media-menu {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .media-logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .media-main-menu img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .title h1 {
+        font-size: 72px !important;
+        padding-top: 50px !important;
+    }
+
+    .button {
+        height: 70px !important;
+        width: 100% !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    .text-description {
+        padding-bottom: 20px !important;
+    }
+
+    .image-content {
+        flex-direction: column !important;
+        height: 100% !important;
+    }
+
+    .image-1 .image-2 .image-3 .image-4 {
+        background-size: auto;
+        height: 100%;
+    }
+
+    .shell {
+        flex-direction: column;
+    }
+
+    .information {
+        flex-direction: column !important;
+        align-items: center !important;
+        padding-bottom: 50px !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main-content {
+        background: url(../images/bottega-sicula-wpcf_576x700.jpg) !important;
+        height: 583px !important;
+    }
+
+    .secondary-menu {
+        display: none;
+    }
+
+    .text-main-menu {
+        display: none !important;
+    }
+
+    .media-menu {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .media-logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .media-main-menu img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .title {
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    .title h1 {
+        font-size: 72px !important;
+    }
+
+    .text-description {
+        padding-bottom: 20px !important;
+    }
+
+    .image-content {
+        flex-direction: column !important;
+        height: 100% !important;
+    }
+
+    .cover-image {
+        width: 100% !important;
+    }
+
+    .simply-image {
+        width: 100% !important;
+    }
+
+    .image-1 .image-2 .image-3 .image-4 {
+        background-size: auto;
+        height: 100%;
+    }
+
+    .shell {
+        flex-direction: column;
+    }
+
+    .information {
+        flex-direction: column !important;
+        align-items: center !important;
+        padding-bottom: 50px !important;
+    }
+}
+
+/************************************************************/
+body {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
     cursor: pointer;
 }
+
 .scroll {
     display: flex;
     flex-direction: column;
     position: relative;
     width: 100%;
     height: 100%;
-} 
+}
 
 .main-content {
     width: 100%;
@@ -19,7 +344,7 @@ a {
 .secondary-menu {
     width: 100%;
     height: 32px;
-    background-color:rgba(0,0,0,.5);
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .menu-shell {
@@ -27,14 +352,19 @@ a {
     position: relative;
     padding-left: 60%;
     padding-top: 5px;
-    font-family: PT Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-family: PT Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
     color: #a6a8ab;
-
 }
 
 .text-menu {
-    display:flex; 
+    display: flex;
     justify-content: space-around;
+}
+
+.hover-text-menu {
+    display: flex;
+    justify-content: space-around;
+    color: #d8af59;
 }
 
 .text-menu div {
@@ -44,7 +374,7 @@ a {
 }
 
 .icon-menu {
-    display:flex; 
+    display: flex;
 }
 
 .menu-image {
@@ -67,9 +397,9 @@ a {
     display: flex;
     justify-content: space-around;
     position: absolute;
-    left: 25%;
     color: #fff;
-    font-family: PT Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    left: 25%;
+    font-family: PT Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
     font-weight: 700;
     font-size: 20px;
 }
@@ -79,21 +409,96 @@ a {
     cursor: pointer;
 }
 
+.change-color-main-menu {
+    color: #d8af59;
+}
+
+.media-menu {
+    display: none;
+}
+
+.media-main-menu {
+    cursor: pointer;
+}
+
+.hide-menu {
+    position: absolute;
+    background-color: #333;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+.icon-close-menu {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.icon-logo {
+    margin-left: 15px;
+}
+
+.display-none {
+    display: none !important;
+}
+
+.retractable-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line {
+    border: none;
+    width: 100%;
+    height: 1px;
+    background-color: #d8af59;
+}
+
+.all-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+}
+
+.item-retractable-menu {
+    font-weight: 700;
+    font-family: PT Sans, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.item-color {
+    color: #d8af59;
+}
+
+.change-color-item-etractable-menu {
+    color: hsl(45, 54%, 36%);
+}
+
 .title {
     display: flex;
     flex-direction: column;
-    font-family: PT Sans,sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-family: PT Sans, sans-serif;
     color: #fff;
-    text-align: left;
-    position: absolute;
-    left: 25%;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .title h1 {
     font-weight: 700;
-    font-size: 120px;
+    font-size: 7.5rem;
     padding-top: 200px;
     margin-bottom: -20px;
+    overflow-y: hidden;
 }
 
 .title span {
@@ -119,44 +524,49 @@ a {
 }
 
 .button a {
-    font-family: PT Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-family: PT Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
     font-size: 18px;
     margin-top: 22px;
 }
 
+.change-color-text-button {
+    color: black;
+}
+
 .description {
+    display: flex;
     width: 100%;
-    height: 700px;
     background-color: #f7f7f7;
 }
 
 .text-description {
-    top:50%;
-    left: 50%;
-    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .text-description h1 {
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 52px;
     padding-bottom: 50px;
     color: grey;
     text-align: center;
 }
+
 .shell {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-content: stretch;
     text-align: center;
-    width: 1110px;
-    margin: 0px;
-    margin-left: 20%;
 }
+
 .different {
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
-    width: 350px;
 }
 
 .different h4 {
@@ -169,6 +579,7 @@ a {
 
 .image-content {
     display: flex;
+    flex-direction: row;
     width: 100%;
     height: 850px;
 }
@@ -186,8 +597,9 @@ a {
 .image-1 {
     background-image: url(../images/FUD-BEC-BURGHER-02-wpcf_1920x700.jpg);
 }
+
 .image-2 {
-    background-image: url(../images/FUD-CIPS-02-hd-wpcf_1920x700.jpg); 
+    background-image: url(../images/FUD-CIPS-02-hd-wpcf_1920x700.jpg);
 }
 
 .image-3 {
@@ -195,13 +607,19 @@ a {
 }
 
 .image-4 {
-    background-image: url(../images/lavagna-wpcf_729x700.jpg); 
+    background-image: url(../images/lavagna-wpcf_729x700.jpg);
+}
+
+.fill-background {
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 3;
+    position: absolute;
 }
 
 .footer {
     width: 100%;
     height: 400px;
-    background-color:#333;
+    background-color: #333;
 }
 
 .mini-logo {
@@ -219,7 +637,7 @@ a {
 .item-inform {
     display: flex;
     flex-direction: column;
-    font-family: PT Sans,sans-serif;
+    font-family: PT Sans, sans-serif;
     font-weight: 700;
     font-size: 18px;
     color: #a6a8ab;
@@ -234,10 +652,9 @@ a {
 
 .item-inform h5 {
     margin-bottom: -5px;
-} 
+}
 
 .item-inform a {
-    color: #4d4d4d;
     font-size: 13px;
     font-weight: 400;
 }
@@ -245,4 +662,84 @@ a {
 .item-inform hr {
     position: relative;
     margin-right: 25px;
+}
+
+.color-item-inform {
+    color: #4d4d4d;
+}
+
+.change-color-item-inform {
+    color: #d8af59 !important;
+}
+
+.image-1:hover div {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.image-1 div {
+    opacity: 0;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    line-height: 600px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    height: 100%;
+}
+
+.image-2:hover div {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.image-2 div {
+    opacity: 0;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    line-height: 600px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    height: 100%;
+}
+
+.image-3:hover div {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.image-3 div {
+    opacity: 0;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    line-height: 600px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    height: 100%;
+}
+
+.image-4:hover div {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.image-4 div {
+    opacity: 0;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    line-height: 600px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    height: 100%;
 }
