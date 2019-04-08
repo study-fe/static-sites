@@ -361,9 +361,7 @@ a {
     justify-content: space-around;
 }
 
-.hover-text-menu {
-    display: flex;
-    justify-content: space-around;
+.change-color-text-menu:hover {
     color: #d8af59;
 }
 
@@ -471,13 +469,10 @@ a {
     text-transform: uppercase;
     padding-top: 8px;
     padding-bottom: 8px;
-}
-
-.item-color {
     color: #d8af59;
 }
 
-.change-color-item-etractable-menu {
+.item-retractable-menu:hover{
     color: hsl(45, 54%, 36%);
 }
 
@@ -529,10 +524,9 @@ a {
     margin-top: 22px;
 }
 
-.change-color-text-button {
+.color-text-button:hover {
     color: black;
 }
-
 .description {
     display: flex;
     width: 100%;
@@ -668,10 +662,9 @@ a {
     color: #4d4d4d;
 }
 
-.change-color-item-inform {
+.color-item-inform:hover {
     color: #d8af59 !important;
 }
-
 .image-1:hover div {
     opacity: 1;
     background: rgba(0, 0, 0, 0.5);
