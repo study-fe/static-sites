@@ -1,33 +1,33 @@
 @media screen and (min-width: 1200px) {
-    .main-content {
+    div .main-content {
         background: url(../images/bottega-sicula-wpcf_1200x700.jpg);
     }
 
-    .description {
-        height: 700px !important;
+    div .description {
+        height: 700px;
     }
 
-    .title h1 {
-        padding-top: 200px !important;
+    div .title h1 {
+        padding-top: 200px;
     }
 }
 
 @media screen and (max-width: 992px) {
-    .main-content {
-        background: url(../images/bottega-sicula-wpcf_1200x700.jpg) !important;
-        height: 693px !important;
+    div .main-content {
+        background: url(../images/bottega-sicula-wpcf_1200x700.jpg);
+        height: 693px;
     }
 
     .secondary-menu {
         display: none;
     }
 
-    .text-main-menu {
-        display: none !important;
+    div .text-main-menu {
+        display: none;
     }
 
-    .media-menu {
-        display: flex !important;
+    div .media-menu {
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -43,31 +43,31 @@
         width: 40px;
     }
 
-    .title {
-        align-items: center !important;
-        text-align: center !important
+    div .title {
+        align-items: center;
+        text-align: center;
     }
 
-    .title h1 {
-        font-size: 96px !important;
-        padding-top: 200px !important;
+    div .title h1 {
+        font-size: 96px;
+        padding-top: 200px;
     }
 
-    .text-description {
-        padding-bottom: 20px !important;
+    div .text-description {
+        padding-bottom: 20px;
     }
 
-    .image-content {
-        flex-direction: column !important;
-        height: 100% !important;
+    div .image-content {
+        flex-direction: column;
+        height: 100%;
     }
 
-    .cover-image {
-        width: 100% !important;
+    div .cover-image {
+        width: 100%;
     }
 
-    .simply-image {
-        width: 100% !important;
+    div .simply-image {
+        width: 100%;
     }
 
     .image-1 .image-2 .image-3 .image-4 {
@@ -75,27 +75,27 @@
         height: 100%;
     }
 
-    .footer {
-        height: 450px !important;
+    div .footer {
+        height: 450px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .main-content {
-        background: url(../images/bottega-sicula-wpcf_1200x700.jpg) !important;
-        height: 583px !important;
+    div .main-content {
+        background: url(../images/bottega-sicula-wpcf_1200x700.jpg);
+        height: 583px;
     }
 
     .secondary-menu {
         display: none;
     }
 
-    .text-main-menu {
-        display: none !important;
+    div .text-main-menu {
+        display: none;
     }
 
-    .media-menu {
-        display: flex !important;
+    div .media-menu {
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -116,30 +116,31 @@
         height: 100px;
     }
 
-    .title h1 {
-        font-size: 72px !important;
-        padding-top: 0 !important;
+    div .title h1 {
+        font-size: 72px;
+        padding-top: 0;
     }
 
-    .button {
-        width: 510px !important;
+    div .button {
+        width: 510px;
     }
 
-    .text-description {
-        padding-bottom: 20px !important;
+    div .text-description {
+        padding-bottom: 20px;
+        ;
     }
 
-    .image-content {
-        flex-direction: column !important;
-        height: 100% !important;
+    div .image-content {
+        flex-direction: column;
+        height: 100%;
     }
 
-    .cover-image {
-        width: 100% !important;
+    div .cover-image {
+        width: 100%;
     }
 
-    .simply-image {
-        width: 100% !important;
+    div .simply-image {
+        width: 100%;
     }
 
     .image-1 .image-2 .image-3 .image-4 {
@@ -155,33 +156,33 @@
         overflow: auto;
     }
 
-    .footer {
-        height: 100% !important;
+    div .footer {
+        height: 100%;
     }
 
-    .information {
-        flex-direction: column !important;
-        align-items: center !important;
-        padding-bottom: 50px !important;
+    div .information {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .main-content {
-        background: url(../images/bottega-sicula-wpcf_768x700.jpg) !important;
-        height: 583px !important;
+    div .main-content {
+        background: url(../images/bottega-sicula-wpcf_768x700.jpg);
+        height: 583px;
     }
 
     .secondary-menu {
         display: none;
     }
 
-    .text-main-menu {
-        display: none !important;
+    div .text-main-menu {
+        display: none;
     }
 
-    .media-menu {
-        display: flex !important;
+    div .media-menu {
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -202,25 +203,25 @@
         height: 100px;
     }
 
-    .title h1 {
-        font-size: 72px !important;
-        padding-top: 50px !important;
+    div .title h1 {
+        font-size: 72px;
+        padding-top: 50px;
     }
 
-    .button {
-        height: 70px !important;
-        width: 100% !important;
-        margin-left: 20px !important;
-        margin-right: 20px !important;
+    div .button {
+        height: 70px;
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
-    .text-description {
-        padding-bottom: 20px !important;
+    div .text-description {
+        padding-bottom: 20px;
     }
 
-    .image-content {
-        flex-direction: column !important;
-        height: 100% !important;
+    div .image-content {
+        flex-direction: column;
+        height: 100%;
     }
 
     .image-1 .image-2 .image-3 .image-4 {
@@ -232,29 +233,29 @@
         flex-direction: column;
     }
 
-    .information {
-        flex-direction: column !important;
-        align-items: center !important;
-        padding-bottom: 50px !important;
+    div .information {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .main-content {
-        background: url(../images/bottega-sicula-wpcf_576x700.jpg) !important;
-        height: 583px !important;
+    div .main-content {
+        background: url(../images/bottega-sicula-wpcf_576x700.jpg);
+        height: 583px;
     }
 
     .secondary-menu {
         display: none;
     }
 
-    .text-main-menu {
-        display: none !important;
+    div .text-main-menu {
+        display: none;
     }
 
-    .media-menu {
-        display: flex !important;
+    div .media-menu {
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -275,30 +276,30 @@
         height: 100px;
     }
 
-    .title {
-        align-items: center !important;
-        text-align: center !important;
+    div .title {
+        align-items: center;
+        text-align: center;
     }
 
-    .title h1 {
-        font-size: 72px !important;
+    div .title h1 {
+        font-size: 72px;
     }
 
-    .text-description {
-        padding-bottom: 20px !important;
+    div .text-description {
+        padding-bottom: 20px;
     }
 
-    .image-content {
-        flex-direction: column !important;
-        height: 100% !important;
+    div .image-content {
+        flex-direction: column;
+        height: 100%;
     }
 
-    .cover-image {
-        width: 100% !important;
+    div .cover-image {
+        width: 100%;
     }
 
-    .simply-image {
-        width: 100% !important;
+    div .simply-image {
+        width: 100%;
     }
 
     .image-1 .image-2 .image-3 .image-4 {
@@ -310,10 +311,10 @@
         flex-direction: column;
     }
 
-    .information {
-        flex-direction: column !important;
-        align-items: center !important;
-        padding-bottom: 50px !important;
+    div .information {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
     }
 }
 
@@ -436,8 +437,8 @@ a {
     margin-left: 15px;
 }
 
-.display-none {
-    display: none !important;
+div .display-none {
+    display: none;
 }
 
 .retractable-menu {
@@ -472,7 +473,7 @@ a {
     color: #d8af59;
 }
 
-.item-retractable-menu:hover{
+.item-retractable-menu:hover {
     color: hsl(45, 54%, 36%);
 }
 
@@ -527,6 +528,7 @@ a {
 .color-text-button:hover {
     color: black;
 }
+
 .description {
     display: flex;
     width: 100%;
@@ -663,8 +665,9 @@ a {
 }
 
 .color-item-inform:hover {
-    color: #d8af59 !important;
+    color: #d8af59;
 }
+
 .image-1:hover div {
     opacity: 1;
     background: rgba(0, 0, 0, 0.5);
