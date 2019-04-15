@@ -122,7 +122,6 @@
 
     .description .description__wrapper {
         padding-bottom: 20px;
-        ;
     }
 
     .scroll .image-content {
@@ -424,7 +423,7 @@ a {
     height: 100px;
 }
 
-.main-content .hide-menu_hidden {
+.main-content ._hidden {
     display: none;
 }
 
@@ -488,7 +487,6 @@ a {
     font-size: 18px;
     font-weight: 400;
     text-align: left;
-    padding-top: -150px;
 }
 
 .button {
@@ -662,7 +660,7 @@ a {
     color: #d8af59;
 }
 
-.image-content_hover:hover div {
+.image-content_blackout:hover div {
     opacity: 1;
     background: rgba(0, 0, 0, 0.5);
     cursor: pointer;
