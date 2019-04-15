@@ -1,18 +1,20 @@
-const mediaMenuIcon = document.querySelector('.media-main-menu');
+const mediaMenuIcon = document.querySelector('.media-menu__icon');
 const hideMenu = document.querySelector('.hide-menu');
-const closeMenuIcon = document.querySelector('.icon-close-menu');
+const hideMenuClose = document.querySelector('.hide-menu__close');
 const mediaMenu = document.querySelector('.media-menu');
 /**
- * Обработчик клика на иконку меню в режиме маленького экрана
+ * @param {UIEvent} e
  */
 mediaMenuIcon.addEventListener('click', (e) => {
   e.preventDefault();
-  hideMenu.classList.remove('display-none');
-  mediaMenu.classList.add('display-none');
+  hideMenu.classList.remove('hide-menu_hidden');
+  mediaMenu.classList.add('hide-menu_hidden');
 });
-
-closeMenuIcon.addEventListener('click', (e) => {
+/**
+ * @param {UIEvent} e
+ */
+hideMenuClose.addEventListener('click', (e) => {
   e.preventDefault();
-  hideMenu.classList.add('display-none');
-  mediaMenu.classList.remove('display-none');
+  hideMenu.classList.add('hide-menu_hidden');
+  mediaMenu.classList.remove('hide-menu_hidden');
 });
