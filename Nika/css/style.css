@@ -423,7 +423,7 @@ a {
     height: 100px;
 }
 
-.main-content ._hidden {
+.hide-menu._hidden {
     display: none;
 }
 

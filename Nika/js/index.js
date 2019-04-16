@@ -7,14 +7,14 @@ const mediaMenu = document.querySelector('.media-menu');
  */
 mediaMenuIcon.addEventListener('click', (e) => {
   e.preventDefault();
-  hideMenu.classList.remove('hide-menu_hidden');
-  mediaMenu.classList.add('hide-menu_hidden');
+  hideMenu.classList.remove('_hidden');
+  mediaMenu.classList.add('hide-menu', '_hidden');
 });
 /**
  * @param {UIEvent} e
  */
 hideMenuClose.addEventListener('click', (e) => {
   e.preventDefault();
-  hideMenu.classList.add('hide-menu_hidden');
-  mediaMenu.classList.remove('hide-menu_hidden');
+  hideMenu.classList.add('_hidden');
+  mediaMenu.classList.remove('hide-menu', '_hidden');
 });
