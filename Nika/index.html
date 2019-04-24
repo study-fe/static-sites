@@ -12,50 +12,77 @@
 <body>
     <!-- весь контент в блоке scroll -->
     <div class="scroll">
+
         <div class="main-content">
-            <div class="secondary-menu">
-                <div class="menu-shell">
-                    <div class="text-menu">
+
+            <div class="menu">
+                <div class="menu__shell">
+                    <div class="menu__items">
                         <div><a>Contact</a></div>
                         <div><a>UORC UID AS</a></div>
                         <div><a>Press Kit</a></div>
                         <div><a>Italiano</a></div>
                     </div>
-                    <div class="icon-menu">
-                        <div class="menu-image"><a><img alt="логотип facebook" src="./images/facebook.png" width="13px" height="14px"></a>
+                    <div class="menu__icons">
+                        <div class="menu__image"><a><img alt="Логотип facebook" src="./images/facebook.png"></a>
                         </div>
-                        <div class="menu-image"><a><img alt="Логотип Instagram" src="./images/instagram.png" width="13px" height="14px"></a>
+                        <div class="menu__image"><a><img alt="Логотип Instagram" src="./images/instagram.png"></a>
                         </div>
-                        <div class="menu-image"><a><img alt="Логотип twitter" src="./images/twitter.png" width="13px" height="14px"></a></div>
-                        <div class="menu-image"><a><img alt="Логотип youtube" src="./images/YouTube_logo_(2013-2015).png" width="20px"
-                                    height="17px"></a></div>
+                        <div class="menu__image"><a><img alt="Логотип twitter" src="./images/twitter.png"></a></div>
+                        <div class="menu__image"><a><img alt="Логотип youtube" src="./images/YouTube_logo_(2013-2015).png"></a></div>
                     </div>
                 </div>
             </div>
             <!-- Основное большое меню -->
-            <div class="text-main-menu">
-                <div class="logo"></div>
-                <div class="item-main-menu"><a>
+            <div class="secondary-menu">
+                <div class="secondary-menu__logo"></div>
+                <div class="secondary-menu__item"><a>
                         <p>BOTTEGA SICULA</p>
                     </a></div>
-                <div class="item-main-menu"><a>
+                <div class="secondary-menu__item"><a>
                         <p>CATANIA</p>
                     </a></div>
-                <div class="item-main-menu"><a>
+                <div class="secondary-menu__item"><a>
                         <p>PALERMO</p>
                     </a></div>
-                <div class="item-main-menu"><a>
+                <div class="secondary-menu__item"><a>
                         <p>MILANO</p>
                     </a></div>
-                <div class="item-main-menu"><a>
+                <div class="secondary-menu__item"><a>
                         <p>FUD BOCS</p>
                     </a></div>
-                <div class="item-main-menu"><a>
+                <div class="secondary-menu__item"><a>
                         <p>BLOG</p>
                     </a></div>
-                <div class="item-main-menu"><a>
+                <div class="secondary-menu__item"><a>
                         <p>SCIOP</p>
                     </a></div>
+            </div>
+            <div class="media-menu">
+                <div class="media-menu__logo"><img src="./images/logo.png" alt="логотип заведения"> </div>
+                <div class="media-menu__icon"><img src="./images/menu.png" alt="иконка меню"></div>
+            </div>
+            <div class="hide-menu _hidden">
+                <div class="hide-menu__icons">
+                        <div class="hide-menu__logo"><img src="./images/logo.png" alt="логотип заведения"></div>
+                        <div class="hide-menu__close"><img src="./images/close.png" alt="крестик"></div>
+                </div>
+                <hr class="hide-menu__line">
+                <div class="hide-menu__items">
+                    <a class="hide-menu__item">Home</a>
+                    <a class="hide-menu__item">Bottega Sicula</a>
+                    <a class="hide-menu__item">Bottga onlain</a>
+                    <a class="hide-menu__item">Catania</a>
+                    <a class="hide-menu__item">Palermo</a>
+                    <a class="hide-menu__item">Milano</a>
+                    <a class="hide-menu__item">Fud bocs</a>
+                    <a class="hide-menu__item">Blog</a>
+                    <a class="hide-menu__item">Contact</a>
+                    <a class="hide-menu__item">Uorc uid us</a>
+                    <a class="hide-menu__item">Press kit</a>
+                    <a class="hide-menu__item">Italiano</a>
+                </div>
+                
             </div>
             <div class="title">
                 <div>
@@ -65,16 +92,16 @@
                     <span><em>We don't just live on Eggplant Parmigiana, cannoli and lemon seltzer .</em></span>
                 </div>
                 <div class="button">
-                    <a> &gt; DISCOVER THE PROJECT</a>
+                    <a class="button_color"> &gt; DISCOVER THE PROJECT</a>
                 </div>
             </div>
         </div>
 
         <div class="description">
-            <div class="text-description">
+            <div class="description__wrapper">
                 <h1>SELECTORS OF GOOD THINGS</h1>
-                <div class="shell">
-                    <div class="different">
+                <div class="description__items">
+                    <div class="description__item">
                         <div><img alt="Изображение весов" src="./images/libra.png"></div>
                         <h4>The human factor</h4>
                         <p>We think diversity is a value that should be defended at all costs. We don't care about the
@@ -82,14 +109,14 @@
                             enthusiastic people. This is our team: unconventional people with loads of great qualities
                             and talent.</p>
                     </div>
-                    <div class="different">
+                    <div class="description__item">
                         <div><img alt="Изображение людей" src="./images/people.png"></div>
                         <h4>Good things are for all</h4>
                         <p>We select only the very best Sicilian ingredients, like Ragusano Buffalo meat and Sicilian
                             beef, but also Madonie Provola cheese, Girgentana goat's cheese and lots of other
                             yummylicious things. Tasty ingredients to savour one morsel at a time.</p>
                     </div>
-                    <div class="different">
+                    <div class="description__item">
                         <div><img alt="Изображение листика" src="./images/leaf.png"></div>
                         <h4>Respect for the earth</h4>
                         <p>We believe in respect for the region in which we live and we also believe in the people who
@@ -101,61 +128,60 @@
         </div>
 
         <div class="image-content">
-            <div class="image-1 cover-image"></div>
-            <div class="image-2 simply-image"></div>
+            <div class="image-content__item-first image-content_cover image-content_overlay-background image-content_blackout"><div>&#128269;</div></div>
+            <div class="image-content__item-second image-content_simply image-content_overlay-background image-content_blackout"><div>&#128269;</div></div>
         </div>
 
         <div class="image-content">
-            <div class="image-3 cover-image"></div>
-            <div class="image-4 simply-image"></div>
+            <div class="image-content__item-third image-content_cover image-content_overlay-background image-content_blackout"><div>&#128269;</div></div>
+            <div class="image-content__item-fourth image-content_simply image-content_overlay-background image-content_blackout"><div>&#128269;</div></div>
         </div>
 
         <div class="footer">
-            <div class="mini-logo"><img alt="Логотип заведения" src="./images/logo.png" width="100"
-                    height="100"></div>
-            <div class="information">
-                <div class="item-inform">
+            <div class="footer__logo"><img alt="Логотип заведения" src="./images/logo.png"></div>
+            <div class="footer__items">
+                <div class="footer__item">
                     <h5>Explore FUD</h5>
-                    <hr class="vertical-line">
-                    <a>BOTTEGA SICULA</a>
-                    <a>BOTTEGA ONLAIN</a>
-                    <a>BLOG</a>
-                    <a>CONTACT</a>
-                    <a>UORC UID AS</a>
-                    <a>PRESS KIT</a>
+                    <hr class="footer__line">
+                    <a class="footer__item_color">BOTTEGA SICULA</a>
+                    <a class="footer__item_color">BOTTEGA ONLAIN</a>
+                    <a class="footer__item_color">BLOG</a>
+                    <a class="footer__item_color">CONTACT</a>
+                    <a class="footer__item_color">UORC UID AS</a>
+                    <a class="footer__item_color">PRESS KIT</a>
                 </div>
-                <div class="item-inform">
+                <div class="footer__item">
                     <h5>Find Us</h5>
-                    <hr class="vertical-line">
-                    <a>CATANIA</a>
-                    <a>PALERMO</a>
-                    <a>MILANO</a>
-                    <a>FUD BOCS</a>
+                    <hr class="footer__line">
+                    <a class="footer__item_color">CATANIA</a>
+                    <a class="footer__item_color">PALERMO</a>
+                    <a class="footer__item_color">MILANO</a>
+                    <a class="footer__item_color">FUD BOCS</a>
                 </div>
-                <div class="item-inform">
+                <div class="footer__item">
                     <h5>FUD reccomends</h5>
-                    <hr class="vertical-line">
-                    <a>CONSERVE</a>
-                    <a>SUGHI E SALSE</a>
-                    <a>PESTI E PATÈ</a>
-                    <a>COMPOSTE E GELATINE</a>
-                    <a>FRUTTA SECCA</a>
-                    <a>MARMELLATE E CONFETTURE</a>
+                    <hr class="footer__line">
+                    <a class="footer__item_color">CONSERVE</a>
+                    <a class="footer__item_color">SUGHI E SALSE</a>
+                    <a class="footer__item_color">PESTI E PATÈ</a>
+                    <a class="footer__item_color">COMPOSTE E GELATINE</a>
+                    <a class="footer__item_color">FRUTTA SECCA</a>
+                    <a class="footer__item_color">MARMELLATE E CONFETTURE</a>
                 </div>
-                <div class="item-inform">
+                <div class="footer__item">
                     <h5>Credits</h5>
-                    <hr class="vertical-line">
-                    <a>WEB DESIGN: + ADD DESIGN</a>
-                    <a>CONCEPT & FOOD PHOTOS: ELISIA</a>
-                    <a>MENDUNI</a>
-                    <a>BRAND DESIGN: SIMONA BONSIGNORE</a>
-                    <a>ARCHIFUDDESAIGN: BALLA | CALVAGNA</a>
-                    <a>PHOTO LOCATION: GIUSEPPE CASABURI</a>
+                    <hr class="footer__line">
+                    <a class="footer__item_color">WEB DESIGN: + ADD DESIGN</a>
+                    <a class="footer__item_color">CONCEPT & FOOD PHOTOS: ELISIA</a>
+                    <a class="footer__item_color">MENDUNI</a>
+                    <a class="footer__item_color">BRAND DESIGN: SIMONA BONSIGNORE</a>
+                    <a class="footer__item_color">ARCHIFUDDESAIGN: BALLA | CALVAGNA</a>
+                    <a class="footer__item_color">PHOTO LOCATION: GIUSEPPE CASABURI</a>
                 </div>
             </div>
         </div>
     </div>
-
+    <script src="js/index.js"></script>
 </body>
 
 </html>
