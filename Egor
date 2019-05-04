@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC >
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title> Страница </title>
+ </head>
+ <body>
+  <h1>Заголовок</h1>
+  <!-- кровь из глаз  -->
+  <hr>
+  <p>изменение .</p>
+  <br> 231
+<hr>
+  <p> <del> удаляемый текст</del>
+   <br><ins> новый текст
+  <pre><big><big> информация
+<hr> 
+  <!--шрифты--> 
+  <p><small><small>Второй абзац.</p>
+  <p><img <a src=http://ic.pics.livejournal.com/anngol/72240050/960053/960053_900.jpg> </p>
+  <br><img <a src=https://img.tsn.ua/cached/1533908617/tsn-8c5f6b23d1211bb14030cc3abd4583f7/thumbs/1200x630/ec/17/2eb27b3cde1fda99890d16c157d617ec.jpeg> </br>
+ <hr>
+<strong ><big><big>  hfhfhafshlfhl </strong>
+ <em> шрифт</em>
+<p><ol>
+         <li><img <a src=http://ic.pics.livejournal.com/anngol/72240050/960053/960053_900.jpg> </li></p> 
+         <li><img <a src=https://img.tsn.ua/cached/1533908617/tsn-8c5f6b23d1211bb14030cc3abd4583f7/thumbs/1200x630/ec/17/2eb27b3cde1fda99890d16c157d617ec.jpeg> </li> </p>
+         <li> часть </li>
+   </ol>
+   <ul>
+         <li> Завтрак </li>
+         <li> Обед </li>
+         <li> Ужин </li>
+    </ul>
+<dl><ol> 
+    <dt> Фрукты : </dt>
+	<li><dd> Яблоко <img <a src=https://produktoff.com/static/upload/goods/6/35806_original.jpg> </dd></li>
+        <li><dd> Груша  <img <a src=http://www.calorizator.ru/sites/default/files/imagecache/product_512/product/pear.jpg </dd></li>
+    </ol>
+<ol>
+     <dt> Овощи :</dt>
+        <li><dd> Помидор<img <a src=https://freshmart.com.ua/images/47/mainimg/b9ecba9dfd0aca73fbc5242b7c6b7b5c_big.jpeg </dd> </li>
+ </ol> </dl>
+<span style="display:block;">123</span>
+
+<!--таблица-->
+<table border="2" align="center" width="300px" height="170px" bordercolor="white">
+
+<tr>
+<td bgcolor="red">красный</td>
+<td bgcolor= "blue">синий</td>
+<td bgcolor="green">желтый </td>
+</tr>
+<tr>
+<td>текст</td>
+<td> текст</td>
+<td> dsdsd</td>
+</tr>
+</table>
+
+</body>
+</html>
