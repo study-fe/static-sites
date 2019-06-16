@@ -4,7 +4,6 @@ import Titles from "./components/Titles";
 import Form from "./components/Form";
 import Weather from "./components/Weather";
 
-
 const API_KEY = "d2430ee85ee2055d290d0e63e943f7e3";
 
 class App extends React.Component {
@@ -16,13 +15,30 @@ class App extends React.Component {
     description: undefined,
     error: undefined
   }
+   
+
   getWeather = async (e) => {
     e.preventDefault();
-    const city = e.target.elements.city.value;
-    const country = e.target.elements.country.value;
+    const valueOfCityAndCountry = {
+      city: e.target.elements.city.value,
+      country: e.target.elements.country.value
+    };
+    const city = valueOfCityAndCountry.city;
+    const country = valueOfCityAndCountry.country;
     const api_call = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}`);
 
     const data = await api_call.json();
+
+    var clearFields = () => {
+      this.setState({
+        temperature: null,
+        city: null,
+        country: null,
+        humidity: null,
+        description: null,
+        error: "Please enter the values."
+      });
+    }
 
     if (city && country) {
       this.setState({
@@ -34,19 +50,12 @@ class App extends React.Component {
         error: ""
       });
     } else {
-      this.setState({
-        temperature: undefined,
-        city: undefined,
-        country: undefined,
-        humidity: undefined,
-        description: undefined,
-        error: "Please enter the values."
-      });
+      clearFields();
     }
   }
   render() {
     return (
-      <div>
+      <React.Fragment>
         <div className="wrapper">
           <div className="main">
             <div className="container">
@@ -69,13 +78,10 @@ class App extends React.Component {
             </div>
           </div>
         </div>
-      </div>
+        </React.Fragment>
 
     );
   }
 };
-
-
-
 
 export default App;
